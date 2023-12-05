@@ -11,6 +11,7 @@ Going for a different language for each day.
 | [Day 1](https://adventofcode.com/2023/day/1) | ⭐️⭐️ | [Rust](https://github.com/rust-lang/rust)       | [Source](2023/day1/src/day1.rs)    |
 | [Day 2](https://adventofcode.com/2023/day/2) | ⭐️⭐️ | [Elixir](https://github.com/elixir-lang/elixir) | [Source](2023/day2/lib/day2.ex)    |
 | [Day 3](https://adventofcode.com/2023/day/3) | ⭐️⭐️ | [Gleam](https://github.com/gleam-lang/gleam)    | [Source](2023/day3/src/day3.gleam) |
+| [Day 4](https://adventofcode.com/2023/day/4) | ⭐️⭐️ | [F#](https://github.com/dotnet/fsharp/)         | [Source](2023/day4/Program.fs)     |
 
 ## How to run
 

@@ -78,6 +78,24 @@
                 }
               ];
             };
+
+            day4 = devenv.lib.mkShell {
+              inherit inputs pkgs;
+              modules = [
+                {
+                  languages.dotnet.enable = true;
+
+                  # Program contains tests in itself.
+                  scripts.run-test.exec = ''
+                    dotnet run
+                  '';
+
+                  scripts.run.exec = ''
+                    dotnet run
+                  '';
+                }
+              ];
+            };
           });
     };
 }
